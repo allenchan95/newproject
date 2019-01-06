@@ -1,0 +1,141 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+
+#inputField {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    
+    
+}
+
+#inputArea {
+  position: relative;
+  width: 20%;
+  margin: 20px;
+
+}
+
+#userinput:hover { /* Text field hover effect */
+ background: #CCC ;
+ font-size: 1.5rem;
+}
+
+#userinput {
+  background: white;
+  color: ##6F808C;
+  border: 2px solid #6F808C;
+  height: 60px;
+  width: 100%;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  transition: all .2s;
+ font-size: 1.2rem;    
+  padding-top: 5px;
+  padding-bottom: 5px;
+ text-decoration: underline;
+  
+}
+
+#inputArea:hover {
+
+
+}
+
+ul {
+   
+  
+   list-style-type: none;
+}
+ul li {
+ 
+  margin: 5px;
+  border: 3px solid transparent;
+  border-radius: 10px 0px 0px 10px;
+  height: 20px;
+  color: #6F808C;
+  text-align: center;
+  width: 10%;
+}
+
+
+.custBtn {
+  font-size: 1.5rem; 
+  position: absolute;
+  top: 0px;
+  right :0px;
+  background: transparent;
+  color: #6F808C;
+  width: 10%;
+  height: 100%;
+  border:  solid transparent;
+  border-left: 0px;
+  border-radius: 0 10px 10px 0;
+  transition: all .2s;
+    
+}
+
+
+
+
+.shoppingList .listItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  padding: 20px;
+  font-size: 26px;
+  border: 2px solid #6F808C;
+  color: ##6F808C;
+  height: 20px;
+  width: auto;
+  list-style: none;
+  transition: all .2s;
+}
+
+.listItem:nth-child(even) {background: #CCC}
+.listItem:nth-child(odd) {background: #FFF}
+
+.shoppingList .listItem:hover{
+    background: #EBF7FF;
+    cursor: pointer;
+   
+  
+}
+.custBtn:hover {
+  color: black;
+  background : #A6BFD1;
+  cursor: pointer;
+}
+
+
+
+.done {
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 640px) {
+    #userinput, .custBtn {
+        
+      font-size: 0.5rem;
+        
+    }
+}
